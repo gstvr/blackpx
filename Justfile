@@ -3,3 +3,6 @@ default:
 
 test:
     go test -v -cover ./...
+
+build:
+    go build -ldflags="-s -w"
