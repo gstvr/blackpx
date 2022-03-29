@@ -9,7 +9,8 @@ go get -d github.com/gstvr/blackpx
 ```
 
 Call it from your code:
-```go 
+```go
+pakage main
 import (
     "image"
     "github.com/gstvr/blackpx/pkg/blackpx"
@@ -35,7 +36,7 @@ import _ "image/gif"
 ### From CLI
 Install the CLI tool:
 ```
-go install github.com/gstvr/blackp@latest
+go install github.com/gstvr/blackpx@latest
 ```
 
 Call it by providing path to an image:
