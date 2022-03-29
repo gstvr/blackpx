@@ -20,7 +20,9 @@ func main() {
     ...
     
     img, _, err := image.Decode(...)
-    panic(err)
+    if err != nil {
+        panic(err)
+    }
     
     pixels := blackpx.CountTrueBlack(img)
 }
